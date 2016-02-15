@@ -52,9 +52,8 @@ header li a:hover{
 	font-size: 4.8rem;
 	color: #37a6ae;
 	margin-right: auto;
-	margin-left: auto;
-	position: absolute;
-    left: 45%
+	margin-left: 44%;
+	
 }
 
 .morefeatures{
@@ -96,7 +95,8 @@ header li a:hover{
 .logo {
 	height: 60px;
 	width: auto;
-	margin: auto;	
+	margin: auto;
+	margin-top: 4%;	
 }
 .logo h1, i {
 	margin: auto;
@@ -110,18 +110,19 @@ header li a:hover{
 
 .navegador {
 	position: fixed;
-	padding: 2.2rem 12rem 1.8rem 10rem;
+	padding: 2.2rem 12rem 0rem 10rem;
 
 }
 
 .navegador2 {
 	position: fixed;
-	padding: 2.2rem 12rem 1.8rem 10rem;
+	padding: 2.2rem 12rem 0rem 10rem;
 	z-index: 1000;
 	background-color: rgba(0, 0, 0, 0.6);
 
 
 }
+
 
 
 /*****BUTTON*************************************/
@@ -144,20 +145,52 @@ header li a:hover{
     border-color: rgba(204, 204, 204, 0.2);
   }
 
+
+.navbar-toggle {
+  position: relative;
+  float: right;
+  padding: 9px 10px;
+  margin-top: 0px!important;
+  margin-right: 15px;
+  margin-bottom: 0px!important;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 0px;
+}
+
+.navbar-toggle:hover {
+	background-color: #37a6ae!important;
+}
+
+
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+}
+.navbar-toggle .icon-bar + .icon-bar {
+  margin-top: 4px;
+}
+
+
 @media screen and (max-width:480px){
 	.titulo0 {
-	font-size: 4.5rem; 
+	font-size: 4rem!important; 
 	line-height: 1.2;
-	margin-top: 11%;
+	padding-top: 30%;
+	padding-bottom: 7%;
 	}
 
 	.descrip{
-	font-size: 1.4rem;
+	font-size: 1.5rem!important;
 	line-height: 1.2;
+	padding-bottom: 2%;
 	}
 
 	.botones{
-	margin-left: 15%;
+	margin-left: 25%!important;
 	
 	}
 
@@ -165,11 +198,28 @@ header li a:hover{
 	margin-right: 20%;
 	margin-bottom: 5%;
 	}
+	.botones button:last-child{
+		margin-left: 3%;
+	}
 
 	h1.text-white{
 	font-size: 2rem;
 	font-weight: 600;
-	margin-top: 2rem !important;
+	margin-top: 2rem!important;
+	}
+
+	.grid1 i{
+		padding-bottom: 20%!important;
+	}
+
+	.sub1{
+		padding-top: 10%;
+	}
+
+	.navegador {
+	position: fixed;
+	padding: 2.2rem 6rem 0rem 2rem!important;
+	background-color: rgba(0, 0, 0, 0.6);
 	}
 
 }
@@ -200,6 +250,16 @@ header li a:hover{
 	margin-top: 2rem !important;
 	}
 	
+	.navegador {
+	position: fixed;
+	padding: 2.2rem 12rem 0rem 10rem;
+	background-color: rgba(0, 0, 0, 0.6);
+	}
+
+	.navbar-toggle {
+		margin-right: -15%;
+	}
+
 }
 
 
